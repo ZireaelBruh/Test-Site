@@ -15,6 +15,8 @@ $("#drop1").css("background-color","green");}});
 $("#drop2").droppable({accept:"#el3", drop:function(){
 $("#el3").css("display","none");
 $("#drop2").css("background-color","green");}});
+
+$("#accordion").accordion();
 });
 
 });
